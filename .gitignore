@@ -1,0 +1,20 @@
+# Arquivos de saída grandes (excedendo limite GitHub 100MB)
+*.mp4
+*.gif
+
+# Arquivos temporários Julia
+*.jl.cov
+*.jl.*.cov
+*.jl.mem
+
+# Diretórios temporários
+.claude/
+tmp/
+temp/
+
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
