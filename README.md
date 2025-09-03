@@ -1,6 +1,12 @@
 # Animação Estendida do Atrator de Lorenz
 
+[![GitHub](https://img.shields.io/badge/GitHub-andrecamatta%2Fpq__lorenz-blue?logo=github)](https://github.com/andrecamatta/pq_lorenz)
+[![Julia](https://img.shields.io/badge/Julia-1.9%2B-9558B2?logo=julia)](https://julialang.org/)
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+
 Este projeto cria uma animação cinematográfica profissional de 60 segundos do atrator de Lorenz demonstrando o caos determinístico através de duas trajetórias com condições iniciais quase idênticas.
+
+🔗 **Repositório:** https://github.com/andrecamatta/pq_lorenz
 
 ## 🎯 Características da Animação
 
@@ -39,8 +45,17 @@ A animação mostra como uma diferença microscópica inicial (0.000001) se ampl
 
 ## 📦 Arquivos Gerados
 
+> ⚠️ **Nota:** Os arquivos de vídeo não estão incluídos no repositório devido ao tamanho (>100MB). Execute o script para gerá-los localmente.
+
 - **`lorenz_extended.mp4`** (25 MB): Vídeo cinematográfico de 60s em alta qualidade
 - **`lorenz_extended.gif`** (87 MB): GIF otimizado com 1000 frames
+
+Para gerar os arquivos de animação:
+```bash
+git clone https://github.com/andrecamatta/pq_lorenz.git
+cd pq_lorenz
+julia lorenz_extended.jl
+```
 
 ## 🎬 Cronograma da Animação (60s)
 
